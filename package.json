@@ -1,0 +1,16 @@
+{
+    "name": "html-canvas-handwriting",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "concurrently  \"npm run lite\" ",
+        "lite": "lite-server",
+        "localtunnel": "lt --port 3000 --subdomain gsn1074"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "lite-server": "2.2.2",
+        "concurrently": "3.1.0",
+        "localtunnel": "1.8.1"
+    }
+}
